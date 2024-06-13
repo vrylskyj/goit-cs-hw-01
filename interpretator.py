@@ -115,7 +115,7 @@ class Parser:
         self.current_token = self.lexer.get_next_token()
 
     def error(self):
-        raise ParsingError("Помилка синтаксичного аналізу")
+        raise ParsingError("Помилка синтаксичного аналізу.")
 
     def eat(self, token_type):
         """
